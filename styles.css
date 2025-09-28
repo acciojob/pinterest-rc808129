@@ -1,27 +1,30 @@
-/*  your css code here. If applicable */
-.Container {
-	display : flex;
-	width : 100vw;
-	height : 150px;
-	justify-items : space-evenly;
-	align-items : center;
+.hero {
+	display: flex;
+	width: 100vw;
+	height: 400px; /* Adjust height as needed */
+	justify-content: center; /* Use justify-content instead of justify-items */
+	align-items: center;
 }
+
 img {
-	height : 100%;
-	width : 200px;
-	object-fit : cover;
+	height: 100%;
+	width: 200px;
+	object-fit: cover;
 }
+
 button {
-	padding : 10px;
-	background-color : red;
-	color : white;
-	border-radius : 5px solid black;
-	align-self : center;
-}	
+	padding: 10px;
+	background-color: red;
+	color: white;
+	border: solid black; /* Separate border property */
+	border-radius: 5px; /* Correctly placed */
+	align-self: center;
+}
+
 .first {
-	margin-left : 50px; 
-	display : flex
-	flex-direction : column;
-	justify-content : center;
-	align-items : center;
+	margin-left: 50px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
